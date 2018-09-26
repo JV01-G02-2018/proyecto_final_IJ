@@ -1,0 +1,366 @@
+body {
+	background-color: none;
+	font-family: Arial, Helvetica, sans-serif;	
+    color: #000000;  
+    margin: 0 auto;
+    margin-left: 8%;  
+}
+
+/*portada*/
+#portada{
+    width: 1000px;
+	height: 300px;
+	margin-left: 5%;
+
+}
+#img-portada{    
+    width: 1100px;
+	height: 300px;
+	border-radius: 20px;
+	margin: 0 auto;	
+}
+
+/*menu*/
+nav{   
+    width: 900px;
+    height: 50px;
+    margin: 0 auto;
+    background-color: none;
+}
+#menu {
+	width: 980px;
+    height: 90px;
+	margin: 0 auto;	
+}
+p, ul, ol {
+	margin-top: 0;
+	line-height: 180%;
+}
+a {
+	text-decoration: none;
+	color: #4486C7;
+}
+
+#links{
+	background-color: #8CF27E;
+	border-radius: 16px 16px 16px 16px;
+-moz-border-radius: 16px 16px 16px 16px;
+-webkit-border-radius: 16px 16px 16px 16px;
+border: 0px solid #000000;
+}
+#contacto{
+	background-color: #E55046;
+	border-radius: 16px 16px 16px 16px;
+-moz-border-radius: 16px 16px 16px 16px;
+-webkit-border-radius: 16px 16px 16px 16px;
+border: 0px solid #000000;
+}
+#inicio{
+	background-color: #DA70D6;
+	border-radius: 16px 16px 16px 16px;
+-moz-border-radius: 16px 16px 16px 16px;
+-webkit-border-radius: 16px 16px 16px 16px;
+border: 0px solid #000000;
+}
+#galeria{
+	background-color: #87CEFA;
+	border-radius: 16px 16px 16px 16px;
+-moz-border-radius: 16px 16px 16px 16px;
+-webkit-border-radius: 16px 16px 16px 16px;
+border: 0px solid #000000;
+}
+#ubicacion{
+	background-color: #FFA500;
+	border-radius: 16px 16px 16px 16px;
+-moz-border-radius: 16px 16px 16px 16px;
+-webkit-border-radius: 16px 16px 16px 16px;
+border: 0px solid #000000;
+}
+#menu ul {	
+	list-style: none;
+	line-height: normal;
+}
+#menu li {
+	float: left;
+}
+#menu a {
+	display: block;
+	width: 130px;
+	height: 20px;
+	margin-right: 5px;
+	padding: 7px 0px 0px 0px;
+	background: url() no-repeat left top;
+	text-decoration: none;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	color: #000000;
+	border: none;
+}
+#menu a:hover, #menu .current_page_item a {
+	text-decoration: none;
+}
+#menu .current_page_item a {
+	padding-left: 0;
+}
+/*fin menu*/
+
+/*parte 1 lado izquierdo*/
+#seccion-padre-1{    
+    float: left;
+    width: 750px;
+    height: 3070px;
+    background-color: whitesmoke;
+    margin: 0 auto;
+    margin-left: 4%;
+    border-top-left-radius: 20px;  
+}
+#parrafo-1{
+	padding: 1, 1, 1, 1;
+	width: 690px;
+	height: 300px;
+	margin: 0 auto;
+	background-color: none;
+	text-align: justify;
+	font-size: 15px;
+}
+.titulos{
+font-family: AR BLANCA;
+text-align: center;
+font-size: 40px;
+}
+  
+  /*  ELEMENTOS DE LA GALERIA DE IMAGENES */
+
+.fotos{
+	background-color: #000000;
+}
+#bloque_img{
+	height:500px ;
+	width: 700px;
+	margin: 0 auto;
+	margin-top: 25%;
+}
+ 
+#galeria-img {
+	padding:0;
+	margin:40px auto 0 auto;
+	list-style-type:none;
+	height:300px;
+	width:700px;
+	}
+  #galeria-img li {
+	width:60px;
+	height:300px;
+	float:left;
+	border-left:2px solid #000;
+	}
+  #galeria-img li img {
+	height:300px;
+	width:60px;
+	border:0;
+	}
+  #galeria-img li:hover {
+	background:#eee;
+	width:400px;
+	}
+  #galeria-img li:hover img {
+	width:400px;
+	}
+#comidas-tipicas{
+			 width: 700px;
+			 height: 500px;
+			 background-color: rgba(229, 81, 70, 0.301);
+			 margin-top: 0%;
+			 text-align: center;
+			 border-radius: 20px;
+			 margin-left: 3%;
+
+}
+#Hoteles{
+	width: 700px;
+	height: 350px;
+	background-color: rgba(68, 133, 199, 0.493);
+	text-align: center;
+	 border-radius: 20px;
+	 margin-left: 3%;
+
+}
+#hotel5{
+	width: 700px;
+	height: 200px;
+	margin: 0 auto;
+}
+#playas{
+	width: 700px;
+	height: 460px;
+	background-color: rgba(255, 166, 0, 0.39);
+	text-align: center;
+	 border-radius: 20px;
+	 margin-left: 3%;
+
+}
+#playas2{
+	width: 700px;
+	height: 200px;
+	margin: 0 auto;
+}
+#Tradiciones{
+	 width: 700px;
+	 height: 600px;
+	 background-color: rgba(135, 206, 250, 0.589);
+	 text-align: center;
+	 border-radius: 20px;
+	 margin-left: 3%;
+
+}
+#tradiciones_img{
+	width: 700px;
+	height: 200px;
+	margin: 0 auto;
+}
+#fila-img1{
+	width: 700px;
+	height: 200px;
+	
+}
+.tipicas-img1{
+	height: 200px;
+	 width: 200px;
+	 margin-left: 3%;
+}
+
+  /*parte 2 lado derecho*/
+#seccion-padre-2{
+    margin: 0 auto;
+    float: left;
+    width: 380px;
+    height:  3070px;
+    background-color:whitesmoke;
+    margin-left: 1%;
+    border-top-right-radius: 20px;
+	                        
+}
+#video2{
+	margin-left: 4%;
+	margin-top: 45%;
+}
+/*buscar*/
+#buscar{
+	height: 50px;
+	width: 300px;
+	background-color: rgba(40, 98, 207, 0.63);
+	margin: 0 auto;
+	margin-top: 5%;
+	border-top-left-radius: 30px;
+	border-top-right-radius: 30px;
+	
+}
+form{
+	margin-left: 6%;
+	padding: 5%;
+	border-radius: 10px;	
+}
+input{
+	border-radius: 5px;
+	padding: 1%;
+}
+button{
+	border-radius: 5px;
+}
+#mapa{
+	margin-left: 5%;
+	margin-top: 2%;
+}
+
+/*tops*/
+#tops{
+	height: 360px;
+	width: 350px;
+	margin: 0 auto;
+	
+}
+.top-1{
+	height: 30px;
+	width: 350px;
+	background-color: #DA70D6;
+	text-align: center;
+	color: #000000;
+	font-family: Bradley Hand ITC;
+	font-size: 25px;
+	border-radius: 10px;
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.top-2{
+	height: 30px;
+	width: 350px;
+	background-color: #000000;
+	color: white;
+	text-align: center;
+	font-family: Bradley Hand ITC;
+	font-size: 25px;
+	border-radius: 10px;
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+/*pie de pagina - footer*/
+footer{
+	
+	height: 300px;
+	width: 1150px;
+	margin-left: 4%;
+	background-color: rgba(0, 0, 0, 0.856);
+	margin-top: 211%;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	color: white;
+}
+/*iconos footer*/
+#redes-sociales{
+	height: 200px;
+	width: 600px;
+	float: left;
+	font-family: AR BLANCA;
+	text-align: center;	
+	margin-bottom: 3%;
+}
+#facebook{
+	width: 35px;
+	height: 35px;
+	padding: 9px;
+}
+#google{
+	width: 35px;
+	height: 35px;
+	padding: 9px;
+}
+#youtube{
+	width: 35px;
+	height: 35px;
+	padding: 9px;
+}
+#instagram{
+	width: 35px;
+	height: 35px;
+	padding: 9px;
+}
+#twitter{
+	width: 35px;
+	height: 35px;
+	padding: 9px;
+}
+#datos-contacto{
+	height: 200px;
+	width: 500px;
+	float: left;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: left;	
+	margin-bottom: 3%;
+	color: white;
+	
+}
+
